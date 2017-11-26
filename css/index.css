@@ -4,6 +4,7 @@ body{
     margin-left:auto;
     margin-right: auto;
     margin-top: 50px;;
+
 }
 
 
@@ -71,4 +72,60 @@ a:hover   {
 a:active  {
     text-decoration: none;
     color: yellow;
+}
+
+
+.box_rectangle_div {
+    margin-top: 30px;
+}
+
+/* 公共的盒子功能   主要用于里面的文字*/
+.box_rectangle {
+    width: 120px;
+    height: 200px;
+    border-width: 1px;
+    border-style:solid;
+    border-color: #999999;
+    border-radius: 5px;
+}
+
+
+.content_area {
+    margin-top: 50px;
+}
+
+.content_area h2 {
+   color: #333333;
+}
+
+.content_area h5 {
+    color: #999999;
+}
+
+.content_area p {
+    border-color: #999999;
+}
+
+.content_area .title{
+    font-weight: 700;
+
+}
+
+
+ /*  用于部分强调字体 */
+.content_area .emphasize {
+    font-weight: 900;
+    color: black;
+}
+
+#github_area a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#zhihu_box_rectangle  {
+    width: 100px;
+    height: 150px;
 }

@@ -9,32 +9,160 @@
           content="姚稳,yaowen,yaoxiaowen,android,安卓"/>
 
 
+    <!--  引入bootstrap  -->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link href="css/common_reset.css" rel="stylesheet"  type="text/css">
     <link href="css/index.css"  rel="stylesheet" type="text/css">
 </head>
 <body>
 
-    <div id="content">
+    <div id="content" class="clearContent">
         <div class="clearContent">
             <img id="portrait" src="img/portrait.jpg">
             <div id="introduce">
                 <h2><strong>姚稳</strong></h2>
-                <p id="intr-title">坐标魔都的Android程序员一枚</p>
-                <p id="intr-summary">技术之路永无止境，且行且努力。。。</p>
+                <p id="intr-title">坐标魔都的程序猿一枚</p>
+                <p id="intr-summary">以绝大多数人的努力程度之低, 根本轮不到去拼天赋</p>
             </div>
         </div>
 
         <ul>
-            <li><a href="http://www.cnblogs.com/yaoxiaowen/" target="_blank">博客</a></li>
-            <li><a href="https://github.com/yaowen369" target="_blank">GitHub</a></li>
-            <li><a href="https://www.zhihu.com/people/eleven369" target="_blank">知乎</a></li>
+            <li><a href="http://www.cnblogs.com/yaoxiaowen/" target="_blank">我的博客</a></li>
+            <li><a href="https://github.com/yaowen369" target="_blank">我的GitHub</a></li>
+            <li><a href="https://www.zhihu.com/people/eleven369" target="_blank">我的知乎</a></li>
             <li><a href="html/about_me.html" target="_blank">关于本人</a></li>
             <!--<li><a href="html/about_me.html" target="_blank">我的简历</a></li>-->
         </ul>
 
     </div>
 
+    <div class="clearContent  content_area" style="margin-top: 100px">
+        <h2> 部分博客文章</h2>
+        <h5 style="margin-top: 20px">博客文章均为本人原创，坚持写作一年，目前拥有三位数的粉丝，获得博客园<b class="emphasize">"推荐博客"</b>荣誉</h5>
+
+        <div>
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle" >
+                    内存到底是什么？<br><br>
+                    瞅瞅这两篇文章,让你站在计算机体系结构的高度上彻底理解这个问题。
+                    <br><br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/7805661.html" target="_blank">存储器层级结构</a>
+                    <br><br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/7805964.html" target="_blank">虚拟内存</a>
+                </p>
+            </div>
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle"   >
+                    C不能跨平台,java可以跨平台，这样说对吗？也对，也不对。
+                    <br>java虚拟机和java啥关系?其实它俩没关系。<br><br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/7470460.html" target="_blank">关于跨平台的一些认识</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle"  >
+                    越来越多的框架都用到了注解，注解的好处就不必多说了。
+                    <br>注解是个比你想象中更强大的工具。
+                    <br> <br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6750192.html" target="_blank">注解基础知识</a>
+                    <br><br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6753964.html" target="_blank">自定义注解处理器</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle"  >
+                    很多UI框架的事件分发传递机制都是殊途同归。那么我们就Android和JS中的事件分发机制进行比较。
+                    <br><br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6941334.html" target="_blank">Android与JavaScript事件分发机制异同</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle"  >
+                    了解html的布局方式后，会发现Android布局也是盒子模型,可谓大同小异。
+                    <br>
+                    来看看css的流模型与四种布局定位方式吧。
+                    <br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6099860.html" target="_blank">CSS定位与position</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-2 	col-lg-2">
+                <p class="box_rectangle"  >
+                    网上写java多线程的文章不计其数,不过这也是每个javaer应该了解的基础知识了。所以我也写了几篇文章进行总结。
+                    <br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6576898.html" target="_blank">自定义线程池</a>
+                    <br>
+                    <a href="http://www.cnblogs.com/yaoxiaowen/p/6581304.html" target="_blank">线程状态和常用方法</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- 部分github项目 -->
+    <div id="github_area" class="clearContent  content_area">
+        <h2 >部分Github项目</h2>
+        <h5 style="margin-top: 20px">过去一年大部分业余时间都投入到了博客上了，所以2018年要多写github了。相比于写文章，code是一件更能收获乐趣的事情(怪不得相比于写文档，程序员更喜欢coding)</h5>
+            <div class="box_rectangle_div col-md-3 	col-lg-3">
+                <p class="box_rectangle" >
+                    自定义的日历控件，模仿iphone上官方默认的日历。<br><br>
+                    希望能实现和iphone上官方日历一样的功能和效果
+                    <br>  <br>
+                    <a href="https://github.com/yaowen369/Calendar" target="_blank">Calendar</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-3 	col-lg-3">
+                <p class="box_rectangle" >
+                    java与C++有泛型和容器，但是C没有这些,那么C的数据结构如何装入各种不同的类型呢？很简单，直接内存操作。
+                    <br>  <br>
+                    <a href="https://github.com/yaowen369/STL_Container_with_C" target="_blank">STL Container with C</a>
+                </p>
+            </div>
+
+            <div class="box_rectangle_div col-md-3 	col-lg-3">
+                <p class="box_rectangle" >
+                    百度ife虽说是针对大学生前端初学者，但是看过任务列表后才发现这些题目都不简单啊。所以就立志将这些任务列表写完。
+                    <br> <br>
+                    <a href="https://github.com/yaowen369/ife" target="_blank">ife</a>
+                </p>
+            </div>
+
+
+            <div class="box_rectangle_div col-md-3 	col-lg-3">
+                <p class="box_rectangle" >
+                    一个简单的天气预报小应用，平心而论写的挺简陋的。<br>
+                    未来有时间希望能将该项目重构。
+
+                    <br><br><br>
+                    <a href="https://github.com/yaowen369/weather" target="_blank">weather</a>
+                </p>
+            </div>
+    </div>
+
+
+
+    <div id="zhihu_area" class="clearContent  content_area" style="margin-bottom: 100px">
+        <h2 >部分知乎内容</h2>
+        <h5 style="margin-top: 20px">已经好久不刷知乎了。不过依旧希望我在知乎上的回答能够对别人有所帮助</h5>
+        <div class="box_rectangle_div col-md-2 	col-lg-2">
+            <p id="zhihu_box_rectangle" class="box_rectangle" >
+                <a href="https://www.zhihu.com/question/31927884/answer/86719368" target="_blank"> 一个外行的小白，如果想转行学习移动开发。(或想转行当程序员),有什么建议或看法</a>
+            </p>
+        </div>
+
+
+    </div>
+
+
     <!--添加鼠标动画效果-->
     <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
+
 </body>
 </html>
